@@ -1,0 +1,103 @@
+.productCon {
+    max-width: 100%;
+  }
+  .proContainer {
+    width: 100%;
+    margin: auto;
+    padding: 6rem 1.3rem 0.5rem 1.3rem;
+    border-bottom: 1px solid rgb(231, 231, 231);
+  }
+  .proNavigation {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(42, 42, 42);
+  }
+  .proNavigation span {
+    color: rgb(71, 71, 71);
+    font-weight: 400;
+  }
+  .proCount {
+    margin: 10px 0;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(42, 42, 42);
+  }
+  .proCount span {
+    font-weight: 300;
+  }
+  .proSort {
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(42, 42, 42);
+    margin-top: -50px;
+    margin-bottom: 5px;
+    align-items: center;
+  }
+  .proSort > div {
+    display: flex;
+    gap: 10px;
+  }
+  .proBox {
+    cursor: pointer;
+    margin-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  .proBox img{
+    mix-blend-mode: multiply;
+    border: 1px solid transparent;
+  }
+  .proBox img:hover{
+    mix-blend-mode: unset;
+    transform: translate(10px);
+    -webkit-transform: translate(10px);
+    -moz-transform: translate(10px);
+    -ms-transform: translate(10px);
+    -o-transform: translate(10px);
+}
+  .proBox::-webkit-scrollbar {
+    display: none;
+    scroll-behavior: smooth;
+  }
+  .proFilters {
+    /* height: 100vh; */
+    width: 270px;
+    overflow-y: scroll;
+    padding: 1rem;
+  }
+  .proFilters::-webkit-scrollbar {
+    display: none;
+  }
+  .proGrid {
+    width: 83%;
+    border: 1px solid rgb(237, 237, 237);
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  .proGrid > div {
+    width: 210px;
+    height: auto;
+  }
+  .pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 3rem 0;
+  }
+  .pagination button {
+    border: 1px solid rgb(188, 185, 186);
+    font-size: 17px;
+    background-color: #fff;
+    padding: 10px 15px;
+  }
+  
+  
+  
